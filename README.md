@@ -1,41 +1,7 @@
-name: Update LeetCode README
+# LeetCode Solutions
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+Total Problems Solved: Calculating...
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Count Solved Problems
-        run: |
-          # Count total unique problem folders by looking for solution files
-          TOTAL=$(find . -type f \( -name "*.cpp" -o -name "*.java" -o -name "*.py" \) | wc -l)
-          
-          cat > README.md << EOF
-          # LeetCode Solutions
-
-          Total Problems Solved: $TOTAL
-
-          ## Repository Structure
-
-          - Each folder contains a LeetCode problem.
-          - Solutions are automatically uploaded using LeetHub.
-
-          Last Updated: $(date)
-          EOF
-
-      - name: Commit Changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add README.md
-          git commit -m "Update README with accurate problem count" || echo "No changes to commit"
-          git push
+## Repository Structure
+- Each folder contains a LeetCode problem.
+- Solutions are automatically uploaded using LeetHub.
