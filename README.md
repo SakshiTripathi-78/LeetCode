@@ -7,20 +7,4 @@ Total Problems Solved: 20
 - Each folder contains a LeetCode problem.
 - Solutions are automatically uploaded using LeetHub.
 
-Last Updated: Fri Aug 14 09:07:33 UTC 2026
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [0070-climbing-stairs](https://github.com/SakshiTripathi-78/LeetCode/tree/master/0070-climbing-stairs) |
-## Dynamic Programming
-|  |
-| ------- |
-| [0070-climbing-stairs](https://github.com/SakshiTripathi-78/LeetCode/tree/master/0070-climbing-stairs) |
-## Memoization
-|  |
-| ------- |
-| [0070-climbing-stairs](https://github.com/SakshiTripathi-78/LeetCode/tree/master/0070-climbing-stairs) |
-<!---LeetCode Topics End-->
+Last Updated: Fri Aug 14 19:07:48 UTC 2026
